@@ -6,6 +6,16 @@ The system takes as input the path to a local code repository and user-provided 
 
 ## Getting Started
 ### 1.Clone the Repository
-</>Bash
+```bash
 git clone https://github.com/W-Douglas/Repopilot.git
 cd Repopilot
+```
+2. Create a Python Environment
+```bash
+conda create -n repopilot python=3.10
+conda activate repopilot
+```
+3. Install Dependencies
+```bash
+pip install -r requirements.txt
+```
