@@ -10,12 +10,22 @@ The system takes as input the path to a local code repository and user-provided 
 git clone https://github.com/W-Douglas/Repopilot.git
 cd Repopilot
 ```
-2. Create a Python Environment
+### 2. Create a Python Environment
 ```bash
 conda create -n repopilot python=3.10
 conda activate repopilot
 ```
-3. Install Dependencies
+### 3. Install Dependencies
 ```bash
 pip install -r requirements.txt
+```
+### 4.Project Structure
+```bash
+Repopilot/
+├── repomap/       # Build repository-level structural maps
+├── retriever/     # Retrieve relevant code context
+├── planner/       # Generate repair plans
+├── coder/         # Generate structured code edit instructions
+├── tools/         # Controlled file/search/git/test tools
+└── README.md
 ```
