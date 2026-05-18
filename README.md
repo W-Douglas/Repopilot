@@ -1,5 +1,7 @@
 # Repopilot
-![Overview](./images/Overview.png)
+<p align="center">
+  <img src="./images/Overview.png" alt="Overview" width="80%">
+</p>
 ## Overview
 RepoPilot is a lightweight Coding Agent system designed for Python code repositories, aimed at transforming code-fixing tasks from simply ‘having a large language model generate code’ into a controlled, verifiable and traceable engineering workflow.
 
