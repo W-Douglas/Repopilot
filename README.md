@@ -1,4 +1,5 @@
 # Repopilot
+![Overview](./images/Overview.png)
 ## Overview
 RepoPilot is a lightweight Coding Agent system designed for Python code repositories, aimed at transforming code-fixing tasks from simply ‘having a large language model generate code’ into a controlled, verifiable and traceable engineering workflow.
 
