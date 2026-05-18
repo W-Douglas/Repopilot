@@ -1,0 +1,5 @@
+# Core dependencies
+httpx>=0.24.0
+
+# Optional: for enhanced parsing
+# tree-sitter>=0.20.0
